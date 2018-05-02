@@ -16,11 +16,6 @@ public class MemberService {
 	@Autowired
 	private MemberRepository memberRepository;
 	
-	//private List<Member> members= new ArrayList<>(Arrays.asList(
-		//	new Member("1","tcheu","kengne","Grace","ruphine@gmail.com","@@@@@","6757676235","buea","student","####"),
-			//new Member("2","syn","ken","Grace","ru@gmail.com","@@@@@","675765","buea","student","####"),
-			//new Member("3","tcheu","ngum","yace","rue@yahoo.com","@@@@","6757676235","buea","student","####")
-			//));
 	
 	public List<Member> getAllMembers(){
 		List<Member> members =new ArrayList<>();
